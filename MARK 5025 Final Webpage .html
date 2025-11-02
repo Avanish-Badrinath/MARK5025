@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DelAitte – Digital Consumer Trends 2025 · AI Innovation Hub</title>
+  <style>
+    :root{
+      --bg:#000000;
+      --ink:#f3f4f6;
+      --muted:#cbd5e1;
+      --panel:#0f1115;
+      --border:#1f2937;
+      --blue:#2a9bff;
+      --blue-dark:#5ec0ff;
+      --radius:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.45);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,sans-serif}
+    a{color:var(--blue);text-decoration:none}
+    .wrap{max-width:1180px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(0,0,0,.9);border-bottom:1px solid var(--border);z-index:40}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:2.8rem;letter-spacing:.2px}
+    .brand .name{font-weight:900;font-size:2.8rem;letter-spacing:.2px;color:#fff}
+    .brand .name .ai{color:var(--blue)}
+    .brand .dot{width:26px;height:26px;border-radius:50%;background:var(--blue)}
+    .nav a{color:var(--ink);opacity:.9}
+    .nav a:hover{opacity:1}
+    .btn{display:inline-flex;align-items:center;padding:.75rem 1.1rem;border-radius:999px;border:1px solid var(--blue);background:var(--blue);color:#001122;font-weight:800;box-shadow:var(--shadow)}
+    .btn--ghost{background:transparent;color:var(--ink);border:1px solid var(--border)}
+
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:60px 0}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
+    h1{font-size:clamp(28px,3.2vw,42px);line-height:1.2;margin:10px 0 12px;color:#ffffff}
+    .kicker{display:inline-flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:800;font-size:.8rem}
+    .kicker:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--blue);display:inline-block}
+    .sub{color:var(--muted)}
+    .ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+
+    .hero-media{border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:#0b0d12}
+    .hero-media img{display:block;width:100%;height:auto;object-fit:cover}
+
+    section{margin:56px 0}
+    h2{font-size:clamp(22px,2.3vw,32px);margin-bottom:10px;color:var(--blue-dark)}
+    p{max-width:800px}
+
+    footer{border-top:1px solid var(--border);color:var(--muted);padding:20px 0;text-align:center}
+
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand"><span class="dot"></span><span class="name">Del<span class="ai">AI</span>tte</span></div>
+      <div>
+        <a class="btn btn--ghost" href="#download">Download</a>
+        <a class="btn" href="#contact">Talk to an Expert</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="card">
+        <div class="kicker">Digital Consumer Trends 2025</div>
+        <h1>Human insight meets AI innovation</h1>
+        <p class="sub">The redesigned layout enhances clarity and efficiency, reflecting Deloitte’s ability to adapt, innovate, and communicate its AI-driven expertise through an intuitive digital experience.</p>
+        <div class="ctaRow">
+          <a class="btn" href="#hub">See AI in Action</a>
+          <a class="btn btn--ghost" href="#download">Download Report</a>
+        </div>
+      </div>
+
+      <figure class="hero-media" aria-label="Innovation image">
+        <img src="90.jpeg" alt="Abstract AI innovation head with network lines" />
+      </figure>
+    </section>
+
+    <section id="insights">
+      <h2>Key Insights</h2>
+      <p>How emerging behaviours and responsible AI are reshaping digital consumer trends in 2025.</p>
+      <div class="ctaRow">
+        <a class="btn btn--ghost" href="#download">Read More</a>
+      </div>
+    </section>
+
+    <section id="hub">
+      <h2>AI Innovation Hub</h2>
+      <p>Benchmarks, dashboards and case examples showing DelAitte’s applied use of AI across industries.</p>
+      <div class="ctaRow">
+        <a class="btn" href="#cases">See Case Studies</a>
+      </div>
+    </section>
+
+    <section id="cases">
+      <h2>Client Results</h2>
+      <p>Where DelAitte’s Human + AI improved efficiency, engagement and growth.</p>
+      <div class="ctaRow">
+        <a class="btn" href="#contact">Talk to an Expert</a>
+      </div>
+    </section>
+
+    <footer>
+      <small>© 2025 — Demonstration asset for coursework. Not an official Deloitte site.</small>
+    </footer>
+  </main>
+</body>
+</html>
